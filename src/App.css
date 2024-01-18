@@ -1,0 +1,47 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    outline: none;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg?auto=compress&cs=tinysrgb&w=600");
+  
+    
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px 20px 10px 20px;
+  }
+  .json-container{
+    max-width: 50rem;
+    max-height: 70vh;
+    background-color: #1f2937;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 15px;
+    overflow: auto;
+  }
+  
+  pre{
+    font-size: 13px;
+    font-weight: 500;
+    color: #e4e7eb;
+    margin: 10px 0;
+  }
+  p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #353d9f;
+    margin: 10px 0;
+    background-color: #ebecf5;
+    padding: 10px 25px;
+    border-radius: 6px;
+    margin-top: 30px;
+  }
